@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "22918468",
+      "name": "Thumb up",
+      "font_class": "a-Thumbup",
+      "unicode": "e775",
+      "unicode_decimal": 59253
+    },
+    {
+      "icon_id": "22918472",
+      "name": "Book closed",
+      "font_class": "a-Bookclosed",
+      "unicode": "e773",
+      "unicode_decimal": 59251
+    },
+    {
+      "icon_id": "22918475",
+      "name": "Basket ball",
+      "font_class": "a-Basketball",
+      "unicode": "e774",
+      "unicode_decimal": 59252
+    },
+    {
+      "icon_id": "22918476",
+      "name": "Shopping cart",
+      "font_class": "a-Shoppingcart",
+      "unicode": "e776",
+      "unicode_decimal": 59254
+    }
+  ]
+}
