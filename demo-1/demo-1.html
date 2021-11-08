@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="backBox">
+    <div class="centerBox">
+      <div class="centerBoxHeart">
+        <div class="markBox">
+          <div class="headTips">
+            <div class="headTipsBack">
+              <img  class="headTipsImg" src="./images/icon/system.png" alt="">
+            </div>
+          </div>
+          <div class="midText">
+            <div class="midTextTitle">资产配置</div>
+            <div class="midTexts">简要介绍内容简要介绍内容</div>
+          </div>
+          <div class="bottomBtn">
+            <div class="arrow"></div>
+          </div>
+        </div>
+        <div class="markBox">
+          <div class="headTips">
+            <div class="headTipsBack">
+              <img  class="headTipsImg" src="./images/icon/family.png" alt="">
+            </div>
+          </div>
+          <div class="midText">
+            <div class="midTextTitle">家族传承</div>
+            <div class="midTexts">简要介绍内容简要介绍内容</div>
+          </div>
+          <div class="bottomBtn">
+            <div class="arrow"></div>
+          </div>
+        </div>
+        <div class="markBox">
+          <div class="headTips">
+            <div class="headTipsBack">
+              <img  class="headTipsImg" src="./images/icon/insure.png" alt="">
+            </div>
+          </div>
+          <div class="midText">
+            <div class="midTextTitle">保险保障</div>
+            <div class="midTexts">简要介绍内容简要介绍内容</div>
+          </div>
+          <div class="bottomBtn">
+            <div class="arrow"></div>
+          </div>
+        </div>
+        <div class="markBox">
+          <div class="headTips">
+            <div class="headTipsBack">
+              <img  class="headTipsImg" src="./images/icon/old-server.png" alt="">
+            </div>
+          </div>
+          <div class="midText">
+            <div class="midTextTitle">养老规划</div>
+            <div class="midTexts">简要介绍内容简要介绍内容</div>
+          </div>
+          <div class="bottomBtn">
+            <div class="arrow"></div>
+          </div>
+        </div>
+        <div class="markBox">
+          <div class="headTips">
+            <div class="headTipsBack">
+              <img  class="headTipsImg" src="./images/icon/welfare.png" alt="">
+            </div>
+          </div>
+          <div class="midText">
+            <div class="midTextTitle">公益慈善</div>
+            <div class="midTexts">简要介绍内容简要介绍内容</div>
+          </div>
+          <div class="bottomBtn">
+            <div class="arrow"></div>
+          </div>
+        </div>
+        <div class="markBox">
+          <div class="headTips">
+            <div class="headTipsBack">
+              <img  class="headTipsImg" src="./images/icon/law.png" alt="">
+            </div>
+          </div>
+          <div class="midText">
+            <div class="midTextTitle">法律法规</div>
+            <div class="midTexts">简要介绍内容简要介绍内容</div>
+          </div>
+          <div class="bottomBtn">
+            <div class="arrow"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<style>
+@import url(./media/media.css);
+
+  * {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .backBox {
+    /* width: 25%; */
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: rgb(249, 239, 232);
+  }
+  .centerBox {
+    display: flex;
+    width: 90%;
+    height: 80%;
+    margin: 10% auto 0;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/demoBox.jpg);
+    background-size: 100% 100%;
+  }
+  .centerBoxHeart {
+    display: flex;
+    width: 90%;
+    height: 90%;
+    flex-direction: column;
+  }
+  .markBox {
+    flex: 2;
+    display: flex;
+    margin: 10px 0;
+  }
+  .headTips {
+    flex: 1;
+  }
+  .headTipsBack {
+    display: flex;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    margin: -40px auto 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+    background-color: #f5ece5;
+  }
+  .headTipsImg {
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+  }
+  .midText {
+    flex: 3;
+    padding: 15px 5px;
+  }
+  .midTextTitle {
+    height: 50%;
+    color: #593009;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .midTexts {
+    height: 50%;
+    color: #b8a797;
+  }
+  .bottomBtn {
+    flex: 0.7;
+  }
+  .arrow {
+    position: relative;
+    height: 15px;
+    width: 15px;
+    top: 50%;
+    left: 50%;
+    margin: -7.5px 0 0 -7.5px;
+    transform: rotate(45deg);
+    border-top:3px solid #b8a796;
+    border-right:3px solid #b8a796;
+  }
+
+</style>
+</html>
